@@ -74,3 +74,38 @@ a {
 a:hover {
     color: hsl(250, 85%, 80%);
 }
+
+@media (max-width: 375px) {
+    body {
+        padding-top: 20px; /* Reduzindo o espaçamento superior para telas pequenas */
+    }
+
+    #container {
+        width: 90%; /* Aumentando a largura para ocupar mais espaço em telas pequenas */
+        margin-top: 15px; /* Ajustando o espaçamento superior */
+        padding: 15px; /* Reduzindo o padding interno para melhor uso do espaço */
+    }
+
+    img {
+        width: 120px; /* Reduzindo o tamanho da imagem para se ajustar à tela */
+        height: 120px;
+    }
+
+    #localização {
+        font-size: 14px; /* Ajustando o tamanho da fonte */
+    }
+
+    #hero-prof {
+        font-size: 16px; /* Reduzindo o tamanho da fonte */
+    }
+
+    ul li {
+        padding: 8px; /* Diminuindo o padding das listas */
+        margin: 10px; /* Reduzindo o espaçamento entre os itens */
+    }
+
+    a {
+        font-size: 14px; /* Diminuindo o tamanho da fonte dos links */
+    }
+}
+
