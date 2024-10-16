@@ -9,8 +9,10 @@
 
 body {
     background-color: hsl(0, 0%, 8%);
-    color: #ffff;
-    font-size: 14px;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    padding-top: 50px;
 }
 
 img {
@@ -19,11 +21,26 @@ img {
     border-radius: 50%;
 }
 
+#localização {
+    color: hsl(250, 85%, 60%);
+    font-weight: 700;
+    margin-top: 10px;
+}
 
-#conteiner {
+#hero-prof {
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+#hero-links {
+    margin-top: 18px;
+}
+
+
+#container {
     background-color: hsl(0, 0%, 12%);
     width: 350px;
-    height: 500px;
+    height: 600px;
     text-align: center;
     margin: auto;
     padding: auto;
@@ -40,10 +57,20 @@ img {
 ul li {
     background-color: hsl(0, 0%, 20%);
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px;
     margin: 15px;
 }
 
 li:hover {
     background-color: hsl(0, 0%, 8%);
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+a:hover {
+    color: hsl(250, 85%, 80%);
 }
