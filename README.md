@@ -19,7 +19,7 @@ A página foi projetada para ser responsiva e funciona bem em diferentes disposi
 
 ## 🚀 Como Acessar
 
-- **URL do Site ao Vivo**: [Seu site no GitHub Pages](https://seu-usuario.github.io/seu-repositorio)
+- **URL do Site ao Vivo**: [Seu site no GitHub Pages](https://lucascruz-lab.github.io/Links-Sociais/)
 - **URL da Solução no Frontend Mentor**: [Frontend Mentor](https://www.frontendmentor.io/profile/seu-usuario)
 
 ## ⚙️ Funcionalidades
