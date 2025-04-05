@@ -81,7 +81,7 @@ a:hover {
     }
 
     #container {
-        width: 90%; /* Aumentando a largura para ocupar mais espaço em telas pequenas */
+        width: 100%; /* Aumentando a largura para ocupar mais espaço em telas pequenas */
         margin-top: 15px; /* Ajustando o espaçamento superior */
         padding: 15px; /* Reduzindo o padding interno para melhor uso do espaço */
     }
