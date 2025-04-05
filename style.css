@@ -12,12 +12,32 @@ body {
     color: #ffffff;
     font-size: 16px;
     font-family: "Inter", sans-serif;
-    padding-top: 50px;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
 }
+
+body::before {
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, #333 0%, transparent 70%);
+    top: -100px;
+    right: -100px;
+    opacity: 0.2;
+    z-index: 0;
+  }
 
 img {
     width: 150px;
     height: 150px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 2px solid #fff;
     border-radius: 50%;
 }
 
@@ -38,15 +58,17 @@ img {
 
 
 #container {
-    background-color: hsl(0, 0%, 12%);
-    width: 350px;
-    height: 600px;
+    background-color: rgba(30, 30, 30, 0.85); /* preto suave + transparência */
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 16px;
+    padding: 2rem;
+    max-width: 400px;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     text-align: center;
-    margin: auto;
-    padding: auto;
-    border-radius: 10px;
-    margin-top: 30px;
-}
+  }
 
 #hero {
     margin-top: 35px;
