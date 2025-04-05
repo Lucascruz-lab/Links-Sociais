@@ -104,37 +104,52 @@ a:hover {
     color: hsl(250, 85%, 80%);
 }
 
-@media (max-width: 375px) {
-    body {
-        padding-top: 20px; /* Reduzindo o espaçamento superior para telas pequenas */
+@media (max-width: 400px) {
+    h1 {
+      font-size: 1.2rem;
     }
-
-    #container {
-        width: 100%; /* Aumentando a largura para ocupar mais espaço em telas pequenas */
-        margin-top: 15px; /* Ajustando o espaçamento superior */
-        padding: 15px; /* Reduzindo o padding interno para melhor uso do espaço */
-    }
-
-    img {
-        width: 120px; /* Reduzindo o tamanho da imagem para se ajustar à tela */
-        height: 120px;
-    }
-
-    #localização {
-        font-size: 14px; /* Ajustando o tamanho da fonte */
-    }
-
+  
     #hero-prof {
-        font-size: 16px; /* Reduzindo o tamanho da fonte */
+      font-size: 0.85rem;
     }
-
-    ul li {
-        padding: 8px; /* Diminuindo o padding das listas */
-        margin: 10px; /* Reduzindo o espaçamento entre os itens */
+  
+    #hero-links li {
+      font-size: 0.95rem;
     }
-
-    a {
-        font-size: 14px; /* Diminuindo o tamanho da fonte dos links */
+  }
+  
+/* Responsividade */
+@media (max-width: 768px) {
+    #container {
+      width: 90%;
+      padding: 1.5rem;
     }
-}
-
+  
+    #hero img {
+      width: 90px;
+    }
+  
+    h1 {
+      font-size: 1.4rem;
+    }
+  
+    #localização {
+      font-size: 0.9rem;
+    }
+  
+    #hero-prof {
+      font-size: 0.95rem;
+      margin: 1rem 0;
+      text-align: center;
+    }
+  
+    #hero-links ul {
+      gap: 0.8rem;
+    }
+  
+    #hero-links li {
+      font-size: 1rem;
+      padding: 0.9rem;
+    }
+  }
+  
