@@ -75,6 +75,13 @@ img {
     padding: 15px;
 }
 
+h1{
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
 
 ul li {
     background-color: hsl(0, 0%, 20%);
